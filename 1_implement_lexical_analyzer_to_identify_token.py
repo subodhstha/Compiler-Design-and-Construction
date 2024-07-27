@@ -1,3 +1,5 @@
+# Write a program to implement Lexical Analyzer to identify token.
+
 keywords = {"if", "else", "while", "do", "break", "continue", "int", "double", "float", "return", "char", "case", "sizeof", "long", "short", "typedef", "switch", "unsigned", "void", "static", "struct", "goto"}
 operators = {'+', '-', '*', '/', '>', '<', '=', '>=', '<=', '==', '!='}
 delimiters = {' ', ',', ';', '(', ')', '[', ']', '{', '}', '\n'}

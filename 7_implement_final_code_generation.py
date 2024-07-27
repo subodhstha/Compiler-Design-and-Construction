@@ -34,9 +34,15 @@ def generate_assembly(intermediate_code):
     
     return assembly_code
 
+# Display the intermediate code in the specified format
+print("Intermediate Code:")
+for instruction in intermediate_code:
+    print(f"{instruction[0]} = {instruction[2]} {instruction[3]} {instruction[4]}")
+
 # Generate the assembly code
 assembly_code = generate_assembly(intermediate_code)
 
 # Print the assembly code
+print("\nAssembly Code:")
 for line in assembly_code:
     print(line)
